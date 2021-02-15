@@ -1,0 +1,261 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Проектування БД</title>
+<meta name="generator" content="WYSIWYG Web Builder 15 - http://www.wysiwygwebbuilder.com">
+<link href="bd9.jpg" rel="shortcut icon" type="image/x-icon">
+<link href="base/jquery-ui.min.css" rel="stylesheet">
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="Посібник1.css" rel="stylesheet">
+<link href="SKBD.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="wb.carousel.min.js"></script>
+<link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.4.css">
+<script src="fancybox/jquery.easing-1.3.pack.js"></script>
+<script src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<script src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<script>
+function openLightboxLayer4()
+{
+   var options = {};
+   options.type = 'inline';
+   options.href = '#Layer4';
+   $.fancybox(options);
+}
+function closeLightboxLayer4()
+{
+   $.fancybox.close();
+}
+</script>
+<link rel="stylesheet" href="magnificpopup/magnific-popup.css">
+<script src="magnificpopup/jquery.magnific-popup.min.js"></script>
+<link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.4.css">
+<script src="fancybox/jquery.easing-1.3.pack.js"></script>
+<script src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<script src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<script>
+function openLightboxLayer3()
+{
+   var options = {};
+   options.type = 'inline';
+   options.href = '#Layer3';
+   $.fancybox(options);
+}
+function closeLightboxLayer3()
+{
+   $.fancybox.close();
+}
+</script>
+<script src="wwb15.min.js"></script>
+<script>
+function displaylightbox(url, options)
+{
+   options.items = { src: url };
+   options.type = 'iframe';
+   $.magnificPopup.open(options);
+}
+</script>
+<script>
+$(document).ready(function()
+{
+   $("#Tabs1").tabs(
+   {
+      show: false,
+      hide: false,
+      event: 'click',
+      collapsible: false
+   });
+   $("#ThemeableButton1").button({ icon: 'ui-primary', iconPosition: 'beginning' });
+   $("#ThemeableButton2").button({ icon: 'ui-primary', iconPosition: 'beginning' });
+   var Carousel2Opts =
+   {
+      delay: 3000,
+      duration: 500,
+      easing: 'linear',
+      mode: 'forward',
+      direction: '',
+      pagination: true,
+      pagination_img_default: 'images/Carousel2-default.png',
+      pagination_img_active: 'images/Carousel2-active.png',
+      pause: null,
+      start: 0
+   };
+   $("#Carousel2").carousel(Carousel2Opts);
+   $("#Carousel2_back a").click(function()
+   {
+      $('#Carousel2').carousel('prev');
+   });
+   $("#Carousel2_next a").click(function()
+   {
+      $('#Carousel2').carousel('next');
+   });
+   $("#ThemeableButton3").button({ icon: 'ui-primary', iconPosition: 'beginning' });
+   $("#ThemeableButton4").button({ icon: 'ui-primary', iconPosition: 'beginning' });
+});
+</script>
+</head>
+<body>
+<div id="container">
+
+<div style="display:none">
+<div id="Layer4" style="position:relative;text-align:center;width:890px;height:480px;z-index:39;">
+<div id="Layer4_Container" style="width:890px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="wb_Carousel2" style="position:absolute;left:18px;top:14px;width:854px;height:453px;z-index:29;overflow:hidden;">
+<div id="Carousel2" style="position:absolute;">
+<div class="frame">
+<div id="wb_Text9" style="position:absolute;left:55px;top:27px;width:735px;height:22px;z-index:22;">
+<span style="color:#000000;font-family:Arial;font-size:19px;"><strong>&#1042;&#1089;&#1090;&#1072;&#1085;&#1086;&#1074;&#1110;&#1090;&#1100; &#1074;&#1110;&#1076;&#1087;&#1086;&#1074;&#1110;&#1076;&#1085;&#1110;&#1089;&#1090;&#1100; &#1084;&#1110;&#1078; &#1074;&#1080;&#1079;&#1085;&#1072;&#1095;&#1077;&#1085;&#1085;&#1103;&#1084; &#1110; &#1087;&#1086;&#1085;&#1103;&#1090;&#1090;&#1103;&#1084;.</strong></span></div>
+<div id="wb_Image1" style="position:absolute;left:85px;top:79px;width:675px;height:179px;z-index:23;">
+<img src="images/Завдання2_2.jpg" id="Image1" alt=""></div>
+</div>
+<div class="frame">
+<div id="wb_Text10" style="position:absolute;left:882px;top:27px;width:516px;height:22px;z-index:24;">
+<span style="color:#000000;font-family:Arial;font-size:19px;"><strong>&#1042;&#1082;&#1072;&#1078;&#1110;&#1090;&#1100; &#1087;&#1086;&#1089;&#1083;&#1110;&#1076;&#1086;&#1074;&#1085;&#1110;&#1089;&#1090;&#1100; &#1076;&#1110;&#1081; &#1076;&#1083;&#1103; &#1089;&#1090;&#1074;&#1086;&#1088;&#1077;&#1085;&#1085;&#1103; &#1073;&#1072;&#1079;&#1080; &#1076;&#1072;&#1085;&#1080;&#1093;.</strong></span></div>
+<div id="wb_Image2" style="position:absolute;left:924px;top:77px;width:715px;height:209px;z-index:25;">
+<img src="images/Завдання2_1.jpg" id="Image2" alt=""></div>
+</div>
+<div class="frame">
+<div id="wb_Text11" style="position:absolute;left:1771px;top:22px;width:728px;height:348px;z-index:26;">
+<p style="margin:0px 0px 15px 0px;font-size:19px;line-height:21px;font-weight:bold;color:#000000;">Створіть&nbsp;нову&nbsp;базу&nbsp;даних, використовуючи&nbsp;локальний&nbsp;шаблон&nbsp; «Учащиеся».</p>
+<p style="margin:0px 0px 15px 0px;font-size:19px;line-height:21px;font-style:italic;color:#000000;"><span style="text-decoration:underline;">Дії</span><span style="text-decoration:underline;">&nbsp;</span><span style="text-decoration:underline;">к</span><span style="text-decoration:underline;">ористувача</span>: </p>
+<ul style="font-size:19px;line-height:21px;color:#000000;list-style-type:decimal;">
+<li style="margin:0 0 0 24px;"><p style="margin:0px 0px 15px 0px;font-size:19px;line-height:21px;">Вибрати&nbsp;<span style="font-style:italic;">Л</span><span style="font-style:italic;">окальні</span><span style="font-style:italic;">&nbsp;</span><span style="font-style:italic;">ш</span><span style="font-style:italic;">аблони</span><span style="font-style:italic;">&nbsp;</span>у&nbsp;списку&nbsp;<span style="font-style:italic;">К</span><span style="font-style:italic;">атегорії</span><span style="font-style:italic;">&nbsp;</span><span style="font-style:italic;">ш</span><span style="font-style:italic;">аблонів</span>. 
+</li>
+<li style="margin:0 0 0 24px;"><p style="margin:0px 0px 15px 0px;font-size:19px;line-height:21px;">Вибрати&nbsp;в&nbsp;області&nbsp;<span style="font-style:italic;">Л</span><span style="font-style:italic;">окальні</span><span style="font-style:italic;">&nbsp;</span><span style="font-style:italic;">ш</span><span style="font-style:italic;">аблони</span>, що&nbsp;відкриється, кнопку&nbsp;з&nbsp;назвою&nbsp;потрібного&nbsp;шаблону (<span style="font-style:italic;">Учащиеся</span>). 
+</li>
+<li style="margin:0 0 0 24px;"><p style="margin:0px 0px 15px 0px;font-size:19px;line-height:21px;">В&nbsp;правій&nbsp;частині&nbsp;вікна&nbsp;вибрати&nbsp;папку&nbsp;для&nbsp;збереження&nbsp;майбутньої&nbsp;БД&nbsp;та&nbsp;ввести&nbsp;ім’я файлу (наприклад,<span style="font-weight:bold;font-style:italic;"> Мій</span><span style="font-weight:bold;font-style:italic;">&nbsp;</span><span style="font-weight:bold;font-style:italic;">к</span><span style="font-weight:bold;font-style:italic;">лас</span>).
+</li>
+<li style="margin:0 0 0 24px;"><p style="margin:0px 0px 15px 0px;font-size:19px;line-height:21px;">Вибрати&nbsp;кнопку&nbsp;<span style="font-style:italic;">С</span><span style="font-style:italic;">творити</span>.
+</li>
+<li style="margin:0 0 0 24px;"><p style="margin:0px 0px 15px 0px;font-size:19px;line-height:21px;">В&nbsp;меню&nbsp;кнопки <span style="font-style:italic;">Office</span> вибрати&nbsp;<span style="font-style:italic;">З</span><span style="font-style:italic;">акрити</span><span style="font-style:italic;">&nbsp;</span>базу&nbsp;даних.
+</li>
+</ul>
+<p style="font-size:13px;line-height:16px;">&nbsp;</p></div>
+</div>
+<div class="frame">
+<div id="wb_Text8" style="position:absolute;left:2632px;top:30px;width:732px;height:287px;z-index:27;">
+<p style="margin:0px 0px 15px 0px;font-size:19px;line-height:21px;color:#000000;"><span style="font-weight:bold;">Створити</span><span style="font-weight:bold;">&nbsp;</span><span style="font-weight:bold;">н</span><span style="font-weight:bold;">ову</span><span style="font-weight:bold;">&nbsp;</span><span style="font-weight:bold;">п</span><span style="font-weight:bold;">усту</span><span style="font-weight:bold;">&nbsp;</span><span style="font-weight:bold;">б</span><span style="font-weight:bold;">азу</span><span style="font-weight:bold;">&nbsp;</span><span style="font-weight:bold;">д</span><span style="font-weight:bold;">аних</span>.</p>
+<p style="margin:0px 0px 15px 0px;font-size:19px;line-height:21px;font-style:italic;color:#000000;"><span style="text-decoration:underline;">Дії</span><span style="text-decoration:underline;">&nbsp;</span><span style="text-decoration:underline;">к</span><span style="text-decoration:underline;">ористувача</span>:</p>
+<ul style="font-size:19px;line-height:21px;color:#000000;list-style-type:decimal;">
+<li style="margin:0 0 0 24px;"><p style="margin:0px 0px 15px 0px;font-size:19px;line-height:21px;">Вибрати&nbsp;кнопку&nbsp;<span style="font-style:italic;">Н</span><span style="font-style:italic;">ова</span><span style="font-style:italic;">&nbsp;</span><span style="font-style:italic;">б</span><span style="font-style:italic;">аза</span><span style="font-style:italic;">&nbsp;</span><span style="font-style:italic;">д</span><span style="font-style:italic;">аних</span><span style="font-style:italic;">&nbsp;</span>в&nbsp;області&nbsp;<span style="font-style:italic;">П</span><span style="font-style:italic;">очаток</span><span style="font-style:italic;">&nbsp;</span><span style="font-style:italic;">р</span><span style="font-style:italic;">оботи</span><span style="font-style:italic;">&nbsp;</span>з Microsoft Office Access.
+</li>
+<li style="margin:0 0 0 24px;"><p style="margin:0px 0px 15px 0px;font-size:19px;line-height:21px;">В&nbsp;правій&nbsp;частині&nbsp;вікна&nbsp;вибрати&nbsp;папку&nbsp;для&nbsp;збереження&nbsp;майбутньої&nbsp;БД&nbsp;та&nbsp;ввести ім’я&nbsp;файлу (<span style="font-weight:bold;font-style:italic;">Школа</span>).
+</li>
+<li style="margin:0 0 0 24px;"><p style="margin:0px 0px 15px 0px;font-size:19px;line-height:21px;">Вибрати&nbsp;кнопку&nbsp;<span style="font-style:italic;">С</span><span style="font-style:italic;">творити</span>.
+</li>
+<li style="margin:0 0 0 24px;"><p style="margin:0px 0px 15px 0px;font-size:19px;line-height:21px;">В&nbsp;меню&nbsp;<span style="font-style:italic;">к</span><span style="font-style:italic;">нопки Office </span>вибрати&nbsp;кнопку&nbsp;<span style="font-style:italic;">В</span><span style="font-style:italic;">ихід</span>.
+</li>
+</ul>
+<p style="font-size:13px;line-height:16px;">&nbsp;</p></div>
+<div id="wb_Text12" style="position:absolute;left:2610px;top:317px;width:776px;height:83px;z-index:28;">
+<span style="color:#000000;font-family:Arial;font-size:19px;"><strong>&#1047;&#1074;&#1077;&#1088;&#1085;&#1110;&#1090;&#1100; &#1091;&#1074;&#1072;&#1075;&#1091;, </strong>&#1097;&#1086; &#1087;&#1088;&#1080; &#1089;&#1090;&#1074;&#1086;&#1088;&#1077;&#1085;&#1085;&#1110; &#1085;&#1086;&#1074;&#1086;&#1111; &#1073;&#1072;&#1079;&#1080; &#1076;&#1072;&#1085;&#1080;&#1093; &#1072;&#1074;&#1090;&#1086;&#1084;&#1072;&#1090;&#1080;&#1095;&#1085;&#1086; &#1089;&#1090;&#1074;&#1086;&#1088;&#1102;&#1108;&#1090;&#1100;&#1089;&#1103; &#1110; &#1085;&#1086;&#1074;&#1072; &#1090;&#1072;&#1073;&#1083;&#1080;&#1094;&#1103;, &#1074; &#1103;&#1082;&#1091; &#1084;&#1086;&#1078;&#1085;&#1072; &#1074;&#1074;&#1086;&#1076;&#1080;&#1090;&#1080; &#1076;&#1072;&#1085;&#1110;, &#1110; &#1087;&#1086;&#1083;&#1077;<em> &#1050;&#1086;&#1076;</em>, &#1097;&#1086; &#1084;&#1110;&#1089;&#1090;&#1080;&#1090;&#1100; &#1090;&#1080;&#1087; <em>&#1051;&#1110;&#1095;&#1080;&#1083;&#1100;&#1085;&#1080;&#1082;</em> &#1110; &#1072;&#1074;&#1090;&#1086;&#1084;&#1072;&#1090;&#1080;&#1095;&#1085;&#1086; &#1074;&#1080;&#1079;&#1085;&#1072;&#1095;&#1072;&#1108;&#1090;&#1100;&#1089;&#1103; &#1103;&#1082; &#1082;&#1083;&#1102;&#1095;&#1086;&#1074;&#1077;.<br></span></div>
+</div>
+</div>
+<div id="Carousel2_back"><a><img alt="Back" src="images/carousel_back.png"></a></div>
+<div id="Carousel2_next"><a><img alt="Next" src="images/carousel_next.png"></a></div>
+</div>
+</div>
+</div>
+</div>
+<div style="display:none">
+<div id="Layer3" style="position:relative;text-align:center;width:890px;height:480px;z-index:40;">
+<div id="Layer3_Container" style="width:890px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="wb_MediaPlayer1" style="position:absolute;left:88px;top:42px;width:721px;height:405px;z-index:37;">
+<video src="сторення.mp4" id="MediaPlayer1" controls>
+</video>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="Layer1" style="position:relative;text-align:center;width:100%;height:72px;float:left;clear:left;display:block;z-index:41;min-width:1024px;">
+<div id="Layer1_Container" style="width:970px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="wb_Text1" style="position:absolute;left:16px;top:15px;width:657px;height:42px;z-index:0;min-width:970px;">
+<span style="color:#FFFFFF;font-family:Tahoma;font-size:35px;"><strong>Системи керування базами даних</strong></span></div>
+<button type="submit" id="ThemeableButton1" onclick="openLightboxLayer4();return false;" name="Завдання" value="" style="position:absolute;left:849px;top:14px;width:45px;height:44px;z-index:1;" title="&#1047;&#1072;&#1074;&#1076;&#1072;&#1085;&#1085;&#1103;"></button>
+<div id="wb_ThemeableButton2" style="position:absolute;left:909px;top:14px;width:41px;height:40px;z-index:2;">
+<a class="ui-button ui-widget ui-corner-all" id="ThemeableButton2" href="./zmist.html" id="ThemeableButton2" style="width:100%;height:100%;"></a></div>
+<div id="wb_ThemeableButton3" style="position:absolute;left:788px;top:15px;width:43px;height:38px;z-index:3;">
+<a class="ui-button ui-widget ui-corner-all" id="ThemeableButton3" href="https://www.liveworksheets.com/dk1043254mu" target="_blank" id="ThemeableButton3" style="width:100%;height:100%;"></a></div>
+<div id="wb_ThemeableButton4" style="position:absolute;left:728px;top:15px;width:43px;height:38px;z-index:4;">
+<a class="ui-button ui-widget ui-corner-all" id="ThemeableButton4" href="javascript:displaylightbox('http://',{})" target="_self" id="ThemeableButton4" onclick="openLightboxLayer3();return false;" style="width:100%;height:100%;"></a></div>
+</div>
+</div>
+<div id="Layer2" style="position:relative;text-align:center;width:100%;height:1086px;float:left;clear:left;display:block;z-index:42;min-width:970px;">
+<div id="Layer2_Container" style="width:966px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="Tabs1" style="position:absolute;left:15px;top:14px;width:928px;height:1034px;z-index:13;">
+<ul>
+<li><a href="#tabs1-page-0"><span>Функції СКБД</span></a></li>
+<li><a href="#tabs1-page-1"><span>СКБД Access</span></a></li>
+<li><a href="#tabs1-page-2"><span>Відкриття Access</span></a></li>
+<li><a href="#tabs1-page-3"><span>Інтерфейс Access</span></a></li>
+</ul>
+<div style="height:1002px;" id="tabs1-page-0">
+<div id="wb_Text2" style="position:absolute;left:12px;top:12px;width:900px;height:269px;text-align:justify;z-index:5;">
+<span style="color:#000000;font-family:Arial;font-size:19px;line-height:23px;">&#1044;&#1083;&#1103; &#1088;&#1086;&#1073;&#1086;&#1090;&#1080; &#1079; &#1073;&#1072;&#1079;&#1072;&#1084;&#1080; &#1076;&#1072;&#1085;&#1080;&#1093; &#1074;&#1080;&#1082;&#1086;&#1088;&#1080;&#1089;&#1090;&#1086;&#1074;&#1091;&#1102;&#1090;&#1100; &#1087;&#1088;&#1080;&#1082;&#1083;&#1072;&#1076;&#1085;&#1110; &#1087;&#1088;&#1086;&#1075;&#1088;&#1072;&#1084;&#1080; - &#1089;&#1080;&#1089;&#1090;&#1077;&#1084;&#1080; &#1082;&#1077;&#1088;&#1091;&#1074;&#1072;&#1085;&#1085;&#1103; &#1073;&#1072;&#1079;&#1072;&#1084;&#1080; &#1076;&#1072;&#1085;&#1080;&#1093; (&#1057;&#1050;&#1041;&#1044;). &#1042;&#1086;&#1085;&#1080; &#1076;&#1072;&#1102;&#1090;&#1100; &#1084;&#1086;&#1078;&#1083;&#1080;&#1074;&#1110;&#1089;&#1090;&#1100; &#1089;&#1090;&#1074;&#1086;&#1088;&#1102;&#1102;&#1090;&#1100; &#1073;&#1072;&#1079;&#1080; &#1076;&#1072;&#1085;&#1080;&#1093;, &#1086;&#1088;&#1075;&#1072;&#1085;&#1110;&#1079;&#1086;&#1074;&#1091;&#1074;&#1072;&#1090;&#1080; &#1087;&#1086;&#1096;&#1091;&#1082;, &#1086;&#1085;&#1086;&#1074;&#1083;&#1077;&#1085;&#1085;&#1103; &#1076;&#1072;&#1085;&#1080;&#1093; &#1090;&#1086;&#1097;&#1086;.<br><br></span><span style="color:#7131A1;font-family:Arial;font-size:19px;line-height:23px;"><strong>&#1057;&#1080;&#1089;&#1090;&#1077;&#1084;&#1072; &#1082;&#1077;&#1088;&#1091;&#1074;&#1072;&#1085;&#1085;&#1103; &#1073;&#1072;&#1079;&#1072;&#1084;&#1080; &#1076;&#1072;&#1085;&#1080;&#1093; (&#1057;&#1050;&#1041;&#1044;) &#8212; &#1094;&#1077; &#1087;&#1088;&#1086;&#1075;&#1088;&#1072;&#1084;&#1072;, &#1097;&#1086; &#1079;&#1072;&#1073;&#1077;&#1079;&#1087;&#1077;&#1095;&#1091;&#1108; &#1084;&#1086;&#1078;&#1083;&#1080;&#1074;&#1110;&#1089;&#1090;&#1100; &#1089;&#1090;&#1074;&#1086;&#1088;&#1077;&#1085;&#1085;&#1103; &#1041;&#1044; &#1090;&#1072; &#1074;&#1080;&#1082;&#1086;&#1085;&#1072;&#1085;&#1085;&#1103; &#1088;&#1110;&#1079;&#1085;&#1086;&#1084;&#1072;&#1085;&#1110;&#1090;&#1085;&#1080;&#1093; &#1086;&#1087;&#1077;&#1088;&#1072;&#1094;&#1110;&#1081; &#1079; &#1076;&#1072;&#1085;&#1080;&#1084;&#1080;, &#1103;&#1082;&#1110; &#1074; &#1085;&#1110;&#1081; &#1079;&#1073;&#1077;&#1088;&#1110;&#1075;&#1072;&#1102;&#1090;&#1100;&#1089;&#1103;.<br></strong></span><span style="color:#000000;font-family:Arial;font-size:19px;line-height:23px;"><br>3 &#1089;&#1072;&#1084;&#1086;&#1075;&#1086; &#1086;&#1079;&#1085;&#1072;&#1095;&#1077;&#1085;&#1085;&#1103; &#1057;&#1050;&#1041;&#1044; &#1074;&#1080;&#1087;&#1083;&#1080;&#1074;&#1072;&#1108;, &#1097;&#1086; &#1084;&#1086;&#1078;&#1085;&#1072; &#1074;&#1080;&#1076;&#1110;&#1083;&#1080;&#1090;&#1080; &#1076;&#1074;&#1110; &#1086;&#1089;&#1085;&#1086;&#1074;&#1085;&#1110; &#1082;&#1072;&#1090;&#1077;&#1075;&#1086;&#1088;&#1110;&#1111; &#1092;&#1091;&#1085;&#1082;&#1094;&#1110;&#1081; &#1057;&#1050;&#1041;&#1044;: &#1092;&#1091;&#1085;&#1082;&#1094;&#1110;&#1111; &#1074;&#1080;&#1079;&#1085;&#1072;&#1095;&#1077;&#1085;&#1085;&#1103; &#1076;&#1072;&#1085;&#1080;&#1093; - &#1090;&#1110;, &#1097;&#1086; &#1076;&#1086;&#1079;&#1074;&#1086;&#1083;&#1103;&#1102;&#1090;&#1100; &#1074;&#1080;&#1079;&#1085;&#1072;&#1095;&#1080;&#1090;&#1080; &#1089;&#1090;&#1088;&#1091;&#1082;&#1090;&#1091;&#1088;&#1091; &#1076;&#1072;&#1085;&#1080;&#1093; &#1091; &#1073;&#1072;&#1079;&#1110;, &#1090;&#1072; &#1092;&#1091;&#1085;&#1082;&#1094;&#1110;&#1111; &#1084;&#1072;&#1085;&#1110;&#1087;&#1091;&#1083;&#1102;&#1074;&#1072;&#1085;&#1085;&#1103; &#1076;&#1072;&#1085;&#1080;&#1084;&#1080;, &#1103;&#1082;&#1110; &#1089;&#1090;&#1086;&#1089;&#1091;&#1102;&#1090;&#1100;&#1089;&#1103; &#1086;&#1087;&#1077;&#1088;&#1072;&#1094;&#1110;&#1081; &#1110;&#1079; &#1089;&#1072;&#1084;&#1080;&#1084;&#1080; &#1076;&#1072;&#1085;&#1080;&#1084;&#1080;. &#1050;&#1088;&#1110;&#1084; &#1090;&#1086;&#1075;&#1086;, &#1057;&#1050;&#1041;&#1044; &#1076;&#1072;&#1108; &#1079;&#1084;&#1086;&#1075;&#1091; &#1090;&#1088;&#1080;&#1074;&#1072;&#1083;&#1080;&#1081; &#1095;&#1072;&#1089; &#1079;&#1073;&#1077;&#1088;&#1110;&#1075;&#1072;&#1090;&#1080; &#1076;&#1072;&#1085;&#1110; &#1091; &#1094;&#1110;&#1083;&#1110;&#1089;&#1085;&#1086;&#1084;&#1091; &#1074;&#1080;&#1075;&#1083;&#1103;&#1076;&#1110;, &#1079;&#1072;&#1093;&#1080;&#1097;&#1072;&#1102;&#1095;&#1080; &#1087;x &#1074;&#1110;&#1076; &#1079;&#1083;&#1086;&#1074;&#1084;&#1080;&#1089;&#1085;&#1080;&#1093; &#1090;&#1072; &#1085;&#1077;&#1085;&#1072;&#1074;&#1084;&#1080;&#1089;&#1085;&#1080;&#1093; &#1089;&#1087;&#1086;&#1090;&#1074;&#1086;&#1088;&#1077;&#1085;&#1100;, &#1090;&#1086;&#1073;&#1090;&#1086; &#1074;&#1080;&#1082;&#1086;&#1085;&#1091;&#1074;&#1072;&#1090;&#1080; &#1092;&#1091;&#1085;&#1082;&#1094;&#1110;&#1102; &#1079;&#1073;&#1077;&#1088;&#1077;&#1078;&#1077;&#1085;&#1085;&#1103; &#1076;&#1072;&#1085;&#1080;&#1093;, &#1072; &#1090;&#1072;&#1082;&#1086;&#1078; &#1088;&#1103;&#1076; &#1110;&#1085;&#1096;&#1080;&#1093;, &#1084;&#1077;&#1085;&#1096; &#1074;&#1072;&#1078;&#1083;&#1080;&#1074;&#1080;&#1093;, &#1092;&#1091;&#1085;&#1082;&#1094;&#1110;&#1081;.<br></span></div>
+<div id="wb_Text4" style="position:absolute;left:12px;top:559px;width:900px;height:230px;text-align:justify;z-index:6;">
+<span style="color:#000000;font-family:Arial;font-size:19px;line-height:23px;">&#1053;&#1072; &#1087;&#1086;&#1079;&#1085;&#1072;&#1095;&#1077;&#1085;&#1085;&#1103; &#1086;&#1087;&#1077;&#1088;&#1072;&#1094;&#1110;&#1081; &#1079; &#1076;&#1072;&#1085;&#1080;&#1084;&#1080; &#1074;&#1078;&#1080;&#1074;&#1072;&#1102;&#1090;&#1100; &#1085;&#1077;&#1089;&#1090;&#1072;&#1085;&#1076;&#1072;&#1088;&#1090;&#1085;&#1110; &#1090;&#1077;&#1088;&#1084;&#1110;&#1085;&#1080;: &#1089;&#1090;&#1086;&#1089;&#1086;&#1074;&#1085;&#1086; &#1057;&#1050;&#1041;&#1044; &#1075;&#1086;&#1074;&#1086;&#1088;&#1103;&#1090;&#1100; &#1085;&#1077; &#0171;&#1074;&#1074;&#1077;&#1076;&#1077;&#1085;&#1085;&#1103; &#1076;&#1072;&#1085;&#1080;&#1093;&#0187;, &#1072; &#0171;&#1076;&#1086;&#1076;&#1072;&#1074;&#1072;&#1085;&#1085;&#1103;&#0187;, &#1085;&#1077; &#0171;&#1088;&#1077;&#1076;&#1072;&#1075;&#1091;&#1074;&#1072;&#1085;&#1085;&#1103;&#0187;, &#1072; &#0171;&#1086;&#1085;&#1086;&#1074;&#1083;&#1077;&#1085;&#1085;&#1103;&#0187;, &#1085;&#1077; &#0171;&#1074;&#1080;&#1074;&#1077;&#1076;&#1077;&#1085;&#1085;&#1103;&#0187;, &#1072; &#0171;&#1087;&#1086;&#1096;&#1091;&#1082; i &#1074;&#1080;&#1073;&#1080;&#1088;&#1072;&#1085;&#1085;&#1103;&#0187;. &#1062;&#1077; &#1085;&#1077; &#1074;&#1080;&#1087;&#1072;&#1076;&#1082;&#1086;&#1074;&#1086;, &#1072;&#1076;&#1078;&#1077;, &#1085;&#1072;&#1087;&#1088;&#1080;&#1082;&#1083;&#1072;&#1076;, &#1088;&#1077;&#1076;&#1072;&#1075;&#1091;&#1074;&#1072;&#1090;&#1080; &#1076;&#1072;&#1085;&#1110; &#1074;&#1084;&#1110;&#1102;&#1090;&#1100; &#1083;&#1080;&#1096;&#1077; &#1083;&#1102;&#1076;&#1080;, &#1072; &#1082;&#1086;&#1083;&#1080; &#1076;&#1086; &#1041;&#1044; &#1079;&#1074;&#1077;&#1088;&#1090;&#1072;&#1108;&#1090;&#1100;&#1089;&#1103; &#1087;&#1088;&#1086;&#1075;&#1088;&#1072;&#1084;&#1072;, &#1074;&#1086;&#1085;&#1072; &#1084;&#1086;&#1078;&#1077; &#1090;&#1110;&#1083;&#1100;&#1082;&#1080; &#1074;&#1080;&#1076;&#1072;&#1083;&#1080;&#1090;&#1080; &#1077;&#1083;&#1077;&#1084;&#1077;&#1085;&#1090; &#1076;&#1072;&#1085;&#1080;&#1093; &#1094;&#1110;&#1083;&#1082;&#1086;&#1084; &#1090;&#1072; &#1079;&#1072;&#1087;&#1080;&#1089;&#1072;&#1090;&#1080; &#1085;&#1072; &#1081;&#1086;&#1075;&#1086; &#1084;&#1110;&#1089;&#1094;&#1077; &#1085;&#1086;&#1074;&#1080;&#1081;, &#1090;&#1086;&#1073;&#1090;&#1086; &#1086;&#1085;&#1086;&#1074;&#1080;&#1090;&#1080; &#1076;&#1072;&#1085;&#1110;, &#1072; &#1085;&#1077; &#1074;&#1110;&#1076;&#1088;&#1077;&#1076;&#1072;&#1075;&#1091;&#1074;&#1072;&#1090;&#1080;. &#1058;&#1072;&#1082; &#1089;&#1072;&#1084;&#1086;, &#1090;&#1110;&#1083;&#1100;&#1082;&#1080; &#1083;&#1102;&#1076;&#1080; &#1079;&#1076;&#1072;&#1090;&#1085;&#1110; &#1074;&#1074;&#1086;&#1076;&#1080;&#1090;&#1080; &#1076;&#1072;&#1085;&#1110;, &#1072; &#1087;&#1088;&#1086;&#1075;&#1088;&#1072;&#1084;&#1080; &#1087;x &#1076;&#1086;&#1076;&#1072;&#1102;&#1090;&#1100;. &#1053;&#1072;&#1088;&#1077;&#1096;&#1090;&#1110;, &#1084;&#1080; &#1075;&#1086;&#1074;&#1086;&#1088;&#1080;&#1084;&#1086; &#1087;&#1088;&#1086; &#1087;&#1086;&#1096;&#1091;&#1082; &#1090;&#1072; &#1074;&#1080;&#1073;&#1080;&#1088;&#1072;&#1085;&#1085;&#1103; &#1076;&#1072;&#1085;&#1080;&#1093; &#1091; &#1057;&#1050;&#1041;&#1044;, &#1072; &#1085;e &#1087;&#1088;&#1086; &#1087;x &#1074;&#1080;&#1074;&#1077;&#1076;&#1077;&#1085;&#1085;&#1103;, &#1086;&#1089;&#1082;&#1110;&#1083;&#1100;&#1082;&#1080; &#1057;&#1050;&#1041;&#1044; &#1079;&#1086;&#1074;&#1089;&#1110;&#1084; &#1085;&#1077; &#1086;&#1073;&#1086;&#1074;&#8217;&#1103;&#1079;&#1082;&#1086;&#1074;&#1086; &#1074;&#1080;&#1074;&#1086;&#1076;&#1080;&#1090;&#1100; &#1076;&#1072;&#1085;&#1110; &#1091; &#1090;&#1086;&#1084;&#1091; &#1074;&#1080;&#1075;&#1083;&#1103;&#1076;&#1110;, &#1074; &#1103;&#1082;&#1086;&#1084;&#1091; &#1074;&#1086;&#1085;&#1080; &#1073;&#1091;&#1083;&#1080; &#1074;&#1074;&#1077;&#1076;&#1077;&#1085;&#1110; &#1074; &#1073;&#1072;&#1079;&#1091;. &#1057;&#1082;&#1072;&#1078;&#1110;&#1084;&#1086;, &#1091; &#1073;&#1072;&#1079;&#1091; &#1073;&#1091;&#1083;&#1086; &#1074;&#1074;&#1077;&#1076;&#1077;&#1085;&#1086; &#1076;&#1072;&#1085;&#1110; &#1087;&#1088;&#1086; &#1091;&#1095;&#1085;&#1110;&#1074; &#1090;&#1072; &#1074;&#1095;&#1080;&#1090;&#1077;&#1083;&#1110;&#1074;, &#1072; &#1082;&#1083;&#1110;&#1108;&#1085;&#1090; &#1093;&#1086;&#1095;&#1077; &#1086;&#1090;&#1088;&#1080;&#1084;&#1072;&#1090;&#1080; &#1087;&#1088;&#1110;&#1079;&#1074;&#1080;&#1097;&#1072; &#1074;&#1095;&#1080;&#1090;&#1077;&#1083;&#1110;&#1074;, &#1103;&#1082;&#1110; &#1074;&#1095;&#1072;&#1090;&#1100; &#1091;&#1095;&#1085;&#1103; &#1030;&#1074;&#1072;&#1085;&#1086;&#1074;&#1072;. &#1065;&#1086;&#1073; &#1074;&#1080;&#1082;&#1086;&#1085;&#1072;&#1090;&#1080; &#1094;&#1077;&#1081; &#1079;&#1072;&#1087;&#1080;&#1090; &#1082;&#1083;&#1110;&#1108;&#1085;&#1090;&#1072;, &#1057;&#1050;&#1041;&#1044; &#1084;&#1072;&#1108; &#1089;&#1087;&#1086;&#1095;&#1072;&#1090;&#1082;&#1091; &#1079;&#1085;&#1072;&#1081;&#1090;&#1080; &#1074;&#1095;&#1080;&#1090;&#1077;&#1083;&#1110;&#1074;, &#1103;&#1082;&#1110; &#1074;&#1080;&#1082;&#1083;&#1072;&#1076;&#1072;&#1102;&#1090;&#1100; &#1091; &#1082;&#1083;&#1072;&#1089;&#1110; &#1094;&#1100;&#1086;&#1075;&#1086; &#1091;&#1095;&#1085;&#1103;, &#1072; &#1087;&#1086;&#1090;&#1110;&#1084; &#1074;&#1080;&#1073;&#1088;&#1072;&#1090;&#1080; &#1111;&#1093;&#1085;&#1110; &#1087;&#1088;&#1110;&#1079;&#1074;&#1080;&#1097;&#1072;.</span></div>
+<picture id="wb_Picture3" style="position:absolute;left:268px;top:297px;width:448px;height:262px;z-index:7">
+<img src="images/СКБД.jpg" id="Picture3" alt="">
+</picture>
+</div>
+<div style="height:1002px;" id="tabs1-page-1">
+<div id="wb_Text3" style="position:absolute;left:19px;top:19px;width:894px;height:754px;text-align:justify;z-index:8;">
+<p style="margin:0px 0px 10px 0px;font-size:19px;line-height:21px;color:#000000;line-height:23.13px;">СКБД Access входить&nbsp;до&nbsp;складу&nbsp;пакета Microsoft Office і&nbsp;призначена&nbsp;для&nbsp;створення&nbsp;та&nbsp;роботи&nbsp;з&nbsp;реляційними&nbsp;базами&nbsp;даних.</p>
+<p style="margin:0px 0px 10px 0px;font-size:19px;line-height:21px;color:#000000;line-height:23.13px;"><span style="font-weight:bold;">Access</span> – це<span style="font-weight:bold;">&nbsp;</span><span style="font-weight:bold;">інтерактивне</span><span style="font-weight:bold;">&nbsp;</span><span style="font-weight:bold;">середовище</span>, до&nbsp;складу&nbsp;якого&nbsp;входять:</p>
+<ul style="font-size:19px;line-height:21px;color:#000000;list-style-type:disc;">
+<li style="margin:0 0 0 27px;"><p style="margin:0px 0px 10px 0px;font-size:19px;line-height:21px;line-height:23.13px;">візуальні&nbsp;і&nbsp;язикові&nbsp;засоби&nbsp;конструювання&nbsp;реляційних&nbsp;БД;
+</li>
+<li style="margin:0 0 0 27px;"><p style="margin:0px 0px 10px 0px;font-size:19px;line-height:21px;line-height:23.13px;">візуальні&nbsp;компоненти&nbsp;і&nbsp;язикові&nbsp;засоби&nbsp;маніпулювання&nbsp;даними (скопіювати, перенести);
+</li>
+<li style="margin:0 0 0 27px;"><p style="margin:0px 0px 10px 0px;font-size:19px;line-height:21px;line-height:23.13px;">візуальні&nbsp;засоби, що&nbsp;дозволяють&nbsp;конструювати&nbsp;стандартні&nbsp;найбільш&nbsp;розповсюджені SQL запити&nbsp;до&nbsp;БД (запит, отриманий&nbsp;вибіркою&nbsp;інформації, створення&nbsp;набору&nbsp;даних, запит&nbsp;на&nbsp;видалення, вставку, редагування);
+</li>
+<li style="margin:0 0 0 27px;"><p style="margin:0px 0px 10px 0px;font-size:19px;line-height:21px;line-height:23.13px;">обчислювальні&nbsp;функції (набір&nbsp;статистичних, логічних, математичних), засоби&nbsp;для&nbsp;створення&nbsp;та&nbsp;виконання&nbsp;запитів&nbsp;мовою SQL;
+</li>
+<li style="margin:0 0 0 27px;"><p style="margin:0px 0px 10px 0px;font-size:19px;line-height:21px;line-height:23.13px;">вбудовано&nbsp;мову VBA (дозволяє&nbsp;створювати&nbsp;клієнтські&nbsp;додатки&nbsp;для&nbsp;роботи&nbsp;з&nbsp;БД);
+</li>
+<li style="margin:0 0 0 27px;"><p style="margin:0px 0px 10px 0px;font-size:19px;line-height:21px;line-height:23.13px;">засоби&nbsp;візуального&nbsp;конструювання&nbsp;звітів&nbsp;з&nbsp;використанням&nbsp;інформації&nbsp;з&nbsp;БД;
+</li>
+<li style="margin:0 0 0 27px;"><p style="margin:0px 0px 10px 0px;font-size:19px;line-height:21px;line-height:23.13px;">засоби&nbsp;побудови&nbsp;діаграм, шаблонів.
+</li>
+</ul>
+<p style="margin:0px 0px 10px 0px;font-size:19px;line-height:21px;color:#000000;line-height:23.13px;"><span style="font-weight:bold;font-style:italic;">Основними</span><span style="font-weight:bold;font-style:italic;">&nbsp;</span><span style="font-weight:bold;font-style:italic;">об</span><span style="font-weight:bold;font-style:italic;">’</span><span style="font-weight:bold;font-style:italic;">єктами</span><span style="font-weight:bold;font-style:italic;">&nbsp;</span>СКБД Access є:</p>
+<p style="margin:0px 0px 10px 0px;font-size:19px;line-height:21px;color:#000000;line-height:23.13px;"><span style="font-weight:bold;">Таблиці</span>&nbsp;- об'єкти, які визначаються й використовуються для зберігання даних. Кожна таблиця включає інформацію про об'єкт певного типу. Вона містить поля (стовпці), і записи (рядки), де зібрана вся необхідна інформація про об'єкт.</p>
+<p style="margin:0px 0px 10px 0px;font-size:19px;line-height:21px;color:#000000;line-height:23.13px;"><span style="font-weight:bold;">Запити</span>&nbsp;- дають можливість виконувати відбір інформації з різних наборів даних,&nbsp;створювати нові набори даних, виконувати обчислення, аналіз та пошук інформації, змінювати&nbsp;структуру наборів даних.</p>
+<p style="margin:0px 0px 10px 0px;font-size:19px;line-height:21px;color:#000000;line-height:23.13px;"><span style="font-weight:bold;">Форми</span>&nbsp;- дають можливість створювати прості клієнтські додатки (діалогові вікна) для&nbsp;роботи з БД, за допомогою стандартних візуальних компонентів (списки, кнопки і т.д.), які можна&nbsp;зв'язувати з запитами або наборами даних.</p>
+<p style="margin:0px 0px 10px 0px;font-size:19px;line-height:21px;color:#000000;line-height:23.13px;"><span style="font-weight:bold;">Звіти</span>&nbsp;- створюють&nbsp;на&nbsp;основі&nbsp;інформації&nbsp;з наборів&nbsp;даних&nbsp;та&nbsp;запитів&nbsp;для&nbsp;відображення&nbsp;даних&nbsp;в&nbsp;зручній&nbsp;для&nbsp;перегляду вигляді або&nbsp;виводу&nbsp;на&nbsp;друк.&nbsp;На&nbsp;основі&nbsp;звіту&nbsp;створюється&nbsp;документ, який може бути вставлений в документ іншого додатку.</p>
+<p style="font-size:13px;line-height:16px;">&nbsp;</p></div>
+</div>
+<div style="height:1002px;" id="tabs1-page-2">
+<div id="wb_Text5" style="position:absolute;left:20px;top:27px;width:889px;height:456px;text-align:justify;z-index:9;">
+<span style="color:#000000;font-family:Arial;font-size:19px;"><strong>Відкриття MS Access </strong>можна виконати наступними <strong>способами</strong>:<br>1) меню кнопки <em>Пуск</em> системи Windows → <em>Усі програми </em>→ Microsoft Office → Microsoft Access 2010;<br>2) відкрити файл с розширенням *.accdb, *.accdw, *.accde, *.accdt, *.accdr, *.mdw.<br><br>Після відкриття MS Access на екрані з’явиться <strong>діалогове вікно Access </strong>з назвою MICROSOFT ACCESS в рядку заголовка. В цьому вікні необхідно вибрати <em>одну із запропонованих дій</em>:<br>1) відкрити існуючу базу даних;<br>2) створити нову (пусту) базу даних;<br>3) створити базу даних за допомогою вбудованих Шаблонів.<br><br><strong>Для створення пустої бази даних </strong>в розділі<em> Нова база даних</em>:<br>1. В рядку<em> І’мя файлу </em>задайте ім’я нової бази даних.<br>2. В кінці рядка <em>І’мя файлу </em>натисніть знак<em> Папка </em>та задайте папку, в якій передбачається зберігати створену базу даних.<br>3. Натисніть кнопку <em>Створити</em>.<br></span></div>
+</div>
+<div style="height:1002px;" id="tabs1-page-3">
+<div id="wb_Text6" style="position:absolute;left:20px;top:15px;width:889px;height:323px;text-align:justify;z-index:10;">
+<p style="margin:0px 0px 10px 0px;font-size:19px;line-height:21px;color:#000000;">Головним&nbsp;елементом&nbsp;користувацького&nbsp;інтерфейсу MS Access є&nbsp;<span style="font-weight:bold;">С</span><span style="font-weight:bold;">трічка</span>, яка&nbsp;розміщена&nbsp;у&nbsp;верхній&nbsp;части&nbsp;вікна&nbsp;та&nbsp;<span style="font-style:italic;">м</span><span style="font-style:italic;">істить</span><span style="font-style:italic;">&nbsp;</span><span style="font-style:italic;">в</span><span style="font-style:italic;">кладки</span>:</p>
+<ul style="font-size:19px;line-height:21px;color:#000000;list-style-type:disc;">
+<li style="margin:0 0 0 24px;"><p style="margin:0px 0px 10px 0px;font-size:19px;line-height:21px;"><span style="font-style:italic;">Файл</span> – містить&nbsp;команди&nbsp;та&nbsp;елементи&nbsp;керування&nbsp;файлом, в&nbsp;який&nbsp;збережено&nbsp;базу&nbsp;даних;
+</li>
+<li style="margin:0 0 0 24px;"><p style="margin:0px 0px 10px 0px;font-size:19px;line-height:21px;"><span style="font-style:italic;">Основне</span> – містить&nbsp;команди&nbsp;й&nbsp;елементи&nbsp;керування&nbsp;для&nbsp;роботи&nbsp;з&nbsp;буфером&nbsp;обміну, форматування&nbsp;тексту, сортування&nbsp;та&nbsp;фільтрація&nbsp;даних&nbsp;тощо;
+</li>
+<li style="margin:0 0 0 24px;"><p style="margin:0px 0px 10px 0px;font-size:19px;line-height:21px;"><span style="font-style:italic;">Створення</span><span style="font-style:italic;">&nbsp;</span>– містить&nbsp;команди&nbsp;для&nbsp;створення&nbsp;таблиць, запитів, форм&nbsp;та&nbsp;інших&nbsp;об’єктів&nbsp;бази&nbsp;даних;
+</li>
+<li style="margin:0 0 0 24px;"><p style="margin:0px 0px 10px 0px;font-size:19px;line-height:21px;"><span style="font-style:italic;">Зовнішні</span><span style="font-style:italic;">&nbsp;</span><span style="font-style:italic;">д</span><span style="font-style:italic;">ані</span><span style="font-style:italic;">&nbsp;</span>– містить&nbsp;команди&nbsp;призначені&nbsp;для&nbsp;експортування&nbsp;й&nbsp;імпортування&nbsp;даних;
+</li>
+<li style="margin:0 0 0 24px;"><p style="margin:0px 0px 10px 0px;font-size:19px;line-height:21px;"><span style="font-style:italic;">Знаряддя</span><span style="font-style:italic;">&nbsp;</span><span style="font-style:italic;">б</span><span style="font-style:italic;">ази</span><span style="font-style:italic;">&nbsp;</span><span style="font-style:italic;">д</span><span style="font-style:italic;">аних</span><span style="font-style:italic;">&nbsp;</span>– містить&nbsp;команди&nbsp;встановлення&nbsp;зв’язків&nbsp;між&nbsp;таблицями, аналізу&nbsp;й&nbsp;переміщення&nbsp;даних&nbsp;між&nbsp;програмами&nbsp;й&nbsp;інші. 
+</li>
+</ul>
+<p style="margin:0px 0px 10px 0px;font-size:19px;line-height:21px;color:#000000;">Стрічка є динамічним об'єктом - під час виконання певних операцій над об'єктами на Стрічці автоматично з'являються ті елементи керування, які потрібні для роботи саме з цим об'єктом.</p></div>
+<div id="wb_Text7" style="position:absolute;left:13px;top:658px;width:902px;height:283px;z-index:11;">
+<span style="color:#000000;font-family:Arial;font-size:19px;"><strong>&#1055;&#1072;&#1085;&#1077;&#1083;&#1100; &#1096;&#1074;&#1080;&#1076;&#1082;&#1086;&#1075;&#1086; &#1076;&#1086;&#1089;&#1090;&#1091;&#1087;&#1091; </strong>&#1088;&#1086;&#1079;&#1084;&#1110;&#1097;&#1077;&#1085;&#1072; &#1074; &#1074;&#1077;&#1088;&#1093;&#1085;&#1110;&#1081; &#1095;&#1072;&#1089;&#1090;&#1080;&#1085;&#1110; &#1074;&#1110;&#1082;&#1085;&#1072; Access. &#1055;&#1086; &#1079;&#1072;&#1084;&#1086;&#1074;&#1095;&#1091;&#1074;&#1072;&#1085;&#1085;&#1102; &#1085;&#1072; &#1094;&#1110;&#1081; &#1087;&#1072;&#1085;&#1077;&#1083;&#1110; &#1088;&#1086;&#1079;&#1090;&#1072;&#1096;&#1086;&#1074;&#1072;&#1085;&#1110; &#1082;&#1085;&#1086;&#1087;&#1082;&#1080; &#1082;&#1077;&#1088;&#1091;&#1074;&#1072;&#1085;&#1085;&#1103;: <em>&#1047;&#1073;&#1077;&#1088;&#1077;&#1075;&#1090;&#1080;, &#1042;&#1110;&#1076;&#1084;&#1110;&#1085;&#1080;&#1090;&#1080;, &#1055;&#1086;&#1074;&#1077;&#1088;&#1085;&#1091;&#1090;&#1080; &#1074;&#1110;&#1076;&#1084;&#1110;&#1085;&#1091;</em>.<br><strong>&#1054;&#1073;&#1083;&#1072;&#1089;&#1090;&#1100; &#1085;&#1072;&#1074;&#1110;&#1075;&#1072;&#1094;&#1110;&#1111; </strong><em>&#1059;&#1089;&#1110; &#1086;&#1073;&#8217;&#1108;&#1082;&#1090;&#1080; Access</em>, &#1088;&#1086;&#1079;&#1090;&#1072;&#1096;&#1086;&#1074;&#1072;&#1085;&#1072; &#1074; &#1083;&#1110;&#1074;&#1110;&#1081; &#1095;&#1072;&#1089;&#1090;&#1080;&#1085;&#1110; &#1074;&#1110;&#1082;&#1085;&#1072;. &#1042;&#1086;&#1085;&#1072; &#1087;&#1088;&#1080;&#1079;&#1085;&#1072;&#1095;&#1077;&#1085;&#1072; &#1076;&#1083;&#1103; &#1074;&#1110;&#1076;&#1086;&#1073;&#1088;&#1072;&#1078;&#1077;&#1085;&#1085;&#1103; &#1086;&#1073;&#8217;&#1108;&#1082;&#1090;&#1110;&#1074; &#1072;&#1073;&#1086; &#1075;&#1088;&#1091;&#1087; &#1086;&#1073;&#8217;&#1108;&#1082;&#1090;&#1110;&#1074; &#1074;&#1110;&#1076;&#1082;&#1088;&#1080;&#1090;&#1086;&#1111; &#1073;&#1072;&#1079;&#1080; &#1076;&#1072;&#1085;&#1080;&#1093;, &#1072; &#1090;&#1072;&#1082;&#1086;&#1078; &#1076;&#1083;&#1103; &#1087;&#1077;&#1088;&#1077;&#1093;&#1086;&#1076;&#1091; &#1074;&#1110;&#1076; &#1086;&#1073;&#8217;&#1108;&#1082;&#1090;&#1072; &#1076;&#1086; &#1086;&#1073;&#8217;&#1108;&#1082;&#1090;&#1091;. &#1065;&#1086;&#1073; &#1074;&#1110;&#1076;&#1082;&#1088;&#1080;&#1090;&#1080; &#1075;&#1088;&#1091;&#1087;&#1091; &#1086;&#1073;&#8217;&#1108;&#1082;&#1090;&#1110;&#1074; &#1085;&#1072;&#1090;&#1080;&#1089;&#1085;&#1110;&#1090;&#1100; &#1084;&#1080;&#1096;&#1082;&#1086;&#1102; &#1087;&#1086; &#1085;&#1072;&#1079;&#1074;&#1110; &#1086;&#1073;&#8217;&#1108;&#1082;&#1090;&#1072;. &#1050;&#1077;&#1088;&#1091;&#1074;&#1072;&#1090;&#1080; &#1086;&#1073;&#8217;&#1108;&#1082;&#1090;&#1072;&#1084;&#1080; &#1084;&#1086;&#1078;&#1085;&#1072; &#1082;&#1086;&#1084;&#1072;&#1085;&#1076;&#1072;&#1084;&#1080; &#1057;&#1090;&#1088;&#1110;&#1095;&#1082;&#1080; &#1081; &#1082;&#1086;&#1084;&#1072;&#1085;&#1076;&#1072;&#1084;&#1080; &#1082;&#1086;&#1085;&#1090;&#1077;&#1082;&#1089;&#1090;&#1085;&#1086;&#1075;&#1086; &#1084;&#1077;&#1085;&#1102;.<br><strong>&#1054;&#1073;&#1083;&#1072;&#1089;&#1090;&#1100; &#1076;&#1086;&#1082;&#1091;&#1084;&#1077;&#1085;&#1090;&#1110;&#1074;</strong>, &#1074; &#1103;&#1082;&#1110;&#1081; &#1074;&#1110;&#1076;&#1086;&#1073;&#1088;&#1072;&#1078;&#1072;&#1108;&#1090;&#1100;&#1089;&#1103; &#1082;&#1086;&#1078;&#1085;&#1080;&#1081; &#1086;&#1073;&#8217;&#1108;&#1082;&#1090; &#1073;&#1072;&#1079;&#1080; &#1076;&#1072;&#1085;&#1080;&#1093;, &#1074;&#1110;&#1076;&#1082;&#1088;&#1080;&#1090;&#1080;&#1081; &#1074; &#1086;&#1073;&#1088;&#1072;&#1085;&#1086;&#1084;&#1091; &#1088;&#1077;&#1078;&#1080;&#1084;&#1110;. &#1042; &#1085;&#1080;&#1078;&#1085;&#1110;&#1081; &#1095;&#1072;&#1089;&#1090;&#1080;&#1085;&#1110; &#1086;&#1073;&#1083;&#1072;&#1089;&#1090;&#1110; &#1088;&#1086;&#1079;&#1090;&#1072;&#1096;&#1086;&#1074;&#1072;&#1085;&#1110; <em>&#1082;&#1085;&#1086;&#1087;&#1082;&#1080; &#1087;&#1077;&#1088;&#1077;&#1084;&#1110;&#1097;&#1077;&#1085;&#1085;&#1103; &#1087;&#1086; &#1079;&#1072;&#1087;&#1080;&#1089;&#1072;&#1084; </em>&#1090;&#1072; &#1087;&#1086;&#1096;&#1091;&#1082;&#1091;.<br><strong>&#1056;&#1103;&#1076;&#1086;&#1082; &#1089;&#1090;&#1072;&#1085;&#1091;</strong>, &#1088;&#1086;&#1079;&#1090;&#1072;&#1096;&#1086;&#1074;&#1072;&#1085;&#1080;&#1081; &#1074;&#1079;&#1076;&#1086;&#1074;&#1078; &#1085;&#1080;&#1078;&#1085;&#1100;&#1086;&#1111; &#1075;&#1088;&#1072;&#1085;&#1080;&#1094;&#1110; &#1074;&#1110;&#1082;&#1085;&#1072; Access, &#1084;&#1110;&#1089;&#1090;&#1080;&#1090;&#1100; &#1082;&#1085;&#1086;&#1087;&#1082;&#1080; &#1087;&#1077;&#1088;&#1077;&#1082;&#1083;&#1102;&#1095;&#1077;&#1085;&#1085;&#1103; &#1074; &#1088;&#1110;&#1079;&#1085;&#1110; &#1088;&#1077;&#1078;&#1080;&#1084;&#1080; &#1088;&#1086;&#1073;&#1086;&#1090;&#1080; &#1079; &#1072;&#1082;&#1090;&#1080;&#1074;&#1085;&#1080;&#1084; &#1086;&#1073;&#8217;&#1108;&#1082;&#1090;&#1086;&#1084;.</span></div>
+<picture id="wb_Picture1" style="position:absolute;left:156px;top:354px;width:550px;height:285px;z-index:12">
+<img src="images/інтерфейс.jpg" id="Picture1" alt="">
+</picture>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

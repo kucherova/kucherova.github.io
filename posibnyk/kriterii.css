@@ -1,0 +1,809 @@
+div#container
+{
+   width: 970px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #A5A5A5;
+   background-image: url(images/kriterii_bkgrnd.png);
+   background-repeat: repeat-x;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 19px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+#Layer1
+{
+   background-color: #45858C;
+   background-image: none;
+   margin: 0;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text1 div
+{
+   text-align: left;
+}
+#Layer2
+{
+   background-color: #45858C;
+   background: linear-gradient(to top, #45858C 0%, #F2F2F2 100%);
+   border: 1px solid #7F7F7F;
+   margin: 0;
+}
+#Table1
+{
+   border: 1px solid #4D4D4D;
+   background-color: #DBDBDB;
+   background-image: none;
+   border-collapse: collapse;
+   border-spacing: 0px;
+   margin: 0;
+}
+#Table1 td
+{
+   padding: 0;
+}
+#Table1 td div
+{
+   white-space: nowrap;
+}
+#Table1 p, #Table1 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#Table1 .cell0
+{
+   background-color: #4D4D4D;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: center;
+   vertical-align: middle;
+   width: 124px;
+   height: 44px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 19px;
+   line-height: 21px;
+}
+#Table1 .cell1
+{
+   background-color: #4D4D4D;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: center;
+   vertical-align: middle;
+   width: 802px;
+   height: 44px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 19px;
+   line-height: 21px;
+}
+#Table1 .cell2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: center;
+   vertical-align: middle;
+   width: 124px;
+   height: 46px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table1 .cell3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: left;
+   vertical-align: top;
+   width: 802px;
+   height: 46px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table1 .cell4
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: center;
+   vertical-align: middle;
+   width: 124px;
+   height: 32px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table1 .cell5
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: left;
+   vertical-align: top;
+   width: 802px;
+   height: 32px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table1 .cell6
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: center;
+   vertical-align: middle;
+   width: 124px;
+   height: 48px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table1 .cell7
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: left;
+   vertical-align: top;
+   width: 802px;
+   height: 48px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table1 .cell8
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: center;
+   vertical-align: middle;
+   width: 124px;
+   height: 64px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table1 .cell9
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: left;
+   vertical-align: top;
+   width: 802px;
+   height: 64px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table1 .cell10
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: center;
+   vertical-align: middle;
+   width: 124px;
+   height: 112px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table1 .cell11
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: left;
+   vertical-align: top;
+   width: 802px;
+   height: 112px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table1 .cell12
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: center;
+   vertical-align: middle;
+   width: 124px;
+   height: 80px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table1 .cell13
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: left;
+   vertical-align: top;
+   width: 802px;
+   height: 80px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table1 .cell14
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: center;
+   vertical-align: middle;
+   width: 124px;
+   height: 96px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table1 .cell15
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: left;
+   vertical-align: top;
+   width: 802px;
+   height: 96px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table1 tr:nth-child(odd)
+{
+   background-color: #FFFFFF;
+}
+#Table2
+{
+   border: 1px solid #4D4D4D;
+   background-color: #DBDBDB;
+   background-image: none;
+   border-collapse: collapse;
+   border-spacing: 0px;
+   margin: 0;
+}
+#Table2 td
+{
+   padding: 0;
+}
+#Table2 td div
+{
+   white-space: nowrap;
+}
+#Table2 p, #Table2 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#Table2 .cell0
+{
+   background-color: #4D4D4D;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: center;
+   vertical-align: middle;
+   width: 102px;
+   height: 34px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 19px;
+   line-height: 21px;
+}
+#Table2 .cell1
+{
+   background-color: #4D4D4D;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: center;
+   vertical-align: middle;
+   width: 604px;
+   height: 34px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 19px;
+   line-height: 21px;
+}
+#Table2 .cell2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: center;
+   vertical-align: middle;
+   width: 102px;
+   height: 52px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table2 .cell3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: left;
+   vertical-align: top;
+   width: 604px;
+   height: 52px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table2 .cell4
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: center;
+   vertical-align: middle;
+   width: 102px;
+   height: 36px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table2 .cell5
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: left;
+   vertical-align: top;
+   width: 604px;
+   height: 36px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table2 .cell6
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: center;
+   vertical-align: middle;
+   width: 102px;
+   height: 68px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table2 .cell7
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: left;
+   vertical-align: top;
+   width: 604px;
+   height: 68px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table2 .cell8
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: center;
+   vertical-align: middle;
+   width: 102px;
+   height: 98px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table2 .cell9
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: left;
+   vertical-align: top;
+   width: 604px;
+   height: 98px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table2 .cell10
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: center;
+   vertical-align: middle;
+   width: 102px;
+   height: 82px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table2 .cell11
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: left;
+   vertical-align: top;
+   width: 604px;
+   height: 82px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table2 tr:nth-child(odd)
+{
+   background-color: #FFFFFF;
+}
+#Table3
+{
+   border: 1px solid #4D4D4D;
+   background-color: #DBDBDB;
+   background-image: none;
+   border-collapse: collapse;
+   border-spacing: 0px;
+   margin: 0;
+}
+#Table3 td
+{
+   padding: 0;
+}
+#Table3 td div
+{
+   white-space: nowrap;
+}
+#Table3 p, #Table3 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#Table3 .cell0
+{
+   background-color: #4D4D4D;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: center;
+   vertical-align: middle;
+   width: 70px;
+   height: 44px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 19px;
+   line-height: 21px;
+}
+#Table3 .cell1
+{
+   background-color: #4D4D4D;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: center;
+   vertical-align: middle;
+   width: 382px;
+   height: 44px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 19px;
+   line-height: 21px;
+}
+#Table3 .cell2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: center;
+   vertical-align: middle;
+   width: 70px;
+   height: 64px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table3 .cell3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: left;
+   vertical-align: top;
+   width: 382px;
+   height: 64px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table3 .cell4
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: center;
+   vertical-align: middle;
+   width: 70px;
+   height: 48px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table3 .cell5
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: left;
+   vertical-align: top;
+   width: 382px;
+   height: 48px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table3 .cell6
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: center;
+   vertical-align: middle;
+   width: 70px;
+   height: 80px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table3 .cell7
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: left;
+   vertical-align: top;
+   width: 382px;
+   height: 80px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table3 .cell8
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: center;
+   vertical-align: middle;
+   width: 70px;
+   height: 160px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table3 .cell9
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: left;
+   vertical-align: top;
+   width: 382px;
+   height: 160px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table3 .cell10
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: center;
+   vertical-align: middle;
+   width: 70px;
+   height: 112px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table3 .cell11
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: left;
+   vertical-align: top;
+   width: 382px;
+   height: 112px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table3 .cell12
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: center;
+   vertical-align: middle;
+   width: 70px;
+   height: 96px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table3 .cell13
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: left;
+   vertical-align: top;
+   width: 382px;
+   height: 96px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table3 .cell14
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: center;
+   vertical-align: middle;
+   width: 70px;
+   height: 144px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table3 .cell15
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #949494 solid;
+   text-align: left;
+   vertical-align: top;
+   width: 382px;
+   height: 144px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table3 tr:nth-child(odd)
+{
+   background-color: #FFFFFF;
+}
+#ThemeableButton1
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 16px;
+   font-style: normal;
+   border-width: 2px;
+}
+#wb_ThemeableButton1
+{
+   border-radius: 4px;
+   margin: 0;
+}
+#wb_ThemeableButton1 .ui-button
+{
+   margin: 0;
+   padding: 0;
+   line-height: 40px;
+}
+#ThemeableButton1
+{
+   color: #454545;
+   text-decoration: none;
+}
+#ThemeableButton1 :hover
+{
+   color: #2B2B2B;
+}
+#ThemeableButton1 :active
+{
+   color: #FFFFFF;
+}
+#wb_ThemeableButton1 .ui-primary
+{
+   background-image: none !important;
+   text-indent: 0;
+   display: inline-block;
+   font-family: FontAwesome;
+   font-style: normal;
+   font-weight: normal;
+   line-height: 1;
+   position: absolute;
+   left: 15px;
+   top: 50%;
+   margin-top: -8px;
+   color: #454545;
+}
+#wb_ThemeableButton1 .ui-primary:before
+{
+   content: "\f122";
+}
+#wb_ThemeableButton1:hover .ui-primary
+{
+   color: #2B2B2B;
+}
+#wb_ThemeableButton1:active .ui-primary
+{
+   color: #FFFFFF;
+}
+#wb_ThemeableButton1 .ui-corner-all, #wb_ThemeableButton1 .ui-corner-left
+{
+   border-bottom-left-radius: 4px;
+   border-top-left-radius: 4px;
+}
+#wb_ThemeableButton1 .ui-corner-all, #wb_ThemeableButton1 .ui-corner-right
+{
+   border-bottom-right-radius: 4px;
+   border-top-right-radius: 4px;
+}
